@@ -1,0 +1,261 @@
+@font-face {
+    font-family: '00499';
+    src: url('/polices/00499-webfont.eot');
+    src: url('/polices/00499-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/polices/00499-webfont.woff2') format('woff2'),
+         url('/polices/00499-webfont.woff') format('woff'),
+         url('/polices/00499-webfont.ttf') format('truetype'),
+         url('/polices/00499-webfont.svg#00499') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: '00499', sans-serif;
+	background-image: url("Digitalworld.jpg");
+	background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	color: #01DFD7;
+}
+
+header
+{
+	height: 110px;
+	width: 100%;
+	border-bottom: 1px solid #01DFD7;
+	text-align: center;
+	position: fixed;
+	padding: 0;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+header div.menu
+{	
+	float: right;
+    left: -50%;
+    position: relative;
+}
+
+header div.menu ul
+{	
+	list-style-type: none; 
+	padding: 0px; 
+	margin: 0px;
+	left: 50%;
+	position: relative;
+}
+
+header div.menu ul li
+{	
+	display: block;
+	float: left;
+	padding: 0px 10px;
+	margin: 0px;
+	width: 200px;
+}
+
+header div.menu a
+{
+    text-decoration: none;
+    color: #01DFD7;
+}
+
+header div.menu a:hover
+{
+    color: red;
+}
+
+div.login
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 35%;
+	width: 60%;
+	margin-top: 12%;
+	margin-left: 20%;
+	border: 1px solid #01DFD7;
+	border-radius: 8px;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+table.loginbox 
+{
+	height: 20%;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+table.loginbox tr.name
+{
+	width: 150px;
+}
+
+#successbox 
+{
+	height: 8%;
+	width: 60%;
+	margin-top: 35%;
+	margin-left: 20%;
+	margin-bottom: 25%;
+	text-align: center;
+	border: 1px solid #30F608;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: #30F608;
+	position: fixed;
+}
+
+#successbox p
+{
+	vertical-align: middle;
+}
+
+#linkmenu
+{
+	color: #30F608;
+}
+
+#linkmenu:hover
+{
+	color: deepskyblue;
+}
+
+#firsttrybox 
+{
+	height: 8%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 35%;
+	position: fixed;
+	text-align: center;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: #01DFD7;
+}
+
+#firsttrybox p
+{
+	vertical-align: middle;
+}
+
+#errorbox 
+{
+	height: 8%;
+	width: 60%;
+	margin-top: 35%;
+	margin-left: 20%;
+	margin-bottom: 25%;
+	text-align: center;
+	border: 1px solid red;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: red;
+	position: fixed;
+}
+
+#errorbox p
+{
+	vertical-align: middle;
+}
+
+#errorbox a
+{
+	color: #FF0000;
+}
+
+#errorbox a:hover
+{
+	color: orange;
+}
+
+#required
+{
+	color: red;
+}
+
+div.login p
+{
+	text-align: center;
+}
+
+input[type="email"]
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 4px;
+	border: 1px solid #01DFD7;
+	width: 200px;
+}
+
+input[type="password"]
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 4px;
+	border: 1px solid #01DFD7;
+	width: 200px;
+}
+
+input[type="submit"]
+{
+	width: 100px;
+	margin-left: 100px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 8px;
+}
+
+input[type="submit"]:hover
+{
+	width: 100px;
+	margin-left: 100px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 255, 0.8);
+	color: #01DFD7;
+	/* box-shadow: 0 0px 0px 0 #01DFD7, 0 6px 20px 0 #01DFD7; */
+}
+
+input[type="reset"]
+{
+	width: 100px;
+	margin-left: 10px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 8px;
+}
+
+input[type="reset"]:hover
+{
+	width: 100px;
+	margin-left: 10px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 255, 0.8);
+	color: #01DFD7;
+}
+
+footer
+{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	line-height: 100px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-top: 1px solid #01DFD7;
+}

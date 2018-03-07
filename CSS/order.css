@@ -1,0 +1,359 @@
+@font-face {
+    font-family: '00499';
+    src: url('/polices/00499-webfont.eot');
+    src: url('/polices/00499-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/polices/00499-webfont.woff2') format('woff2'),
+         url('/polices/00499-webfont.woff') format('woff'),
+         url('/polices/00499-webfont.ttf') format('truetype'),
+         url('/polices/00499-webfont.svg#00499') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: '00499', sans-serif;
+	background-image: url("Digitalworld.jpg");
+	background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	color: #01DFD7;
+}
+
+header
+{
+	height: 110px;
+	width: 100%;
+	border-bottom: 1px solid #01DFD7;
+	text-align: center;
+	position: fixed;
+	padding: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+header div.menu
+{	 
+	float: right;
+    left: -50%;
+    position: relative;
+}
+
+header div.menu ul
+{	
+	list-style-type: none; 
+	padding: 0px; 
+	margin: 0px;
+	left: 50%;
+	position: relative;
+}
+
+header div.menu ul li
+{	
+	display: block;
+	float: left;
+	padding: 0px 10px;
+	margin: 0px;
+	width: 150px;
+}
+
+header div.menu ul li.welcome
+{	
+	text-align: right;
+	width: 300px;
+}
+
+header div.menu a
+{
+    text-decoration: none;
+    color: #01DFD7;
+}
+
+header div.menu a:hover
+{
+    color: red;
+}
+
+div.cart
+{
+	width: 60%;
+	margin-top: 11%;
+	margin-left: 20%;
+	border: 1px solid #01DFD7;
+	border-radius: 8px;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+div.cart p
+{
+	text-align: center;
+}
+
+table.itemcart
+{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+table.itemcart td, th /* Mettre une bordure sur les td ET les th */
+{
+ 	width: 200px;   
+    text-align: left;
+}
+
+table.itemcart td.title
+{
+ 	text-align: center;  
+}
+
+table.itemcart td.item_name
+{
+ 	width: 60%;   
+}
+
+table.itemcart td.item_cost
+{
+ 	margin-left: 15%;   
+}
+
+table.itemcart td.card
+{
+ 	vertical-align: center;  
+}
+
+table.itemcart th.item_quantity
+{
+ 	text-align: center;  
+}
+
+table.itemcart td.item_quantity
+{
+ 	text-align: center;  
+}
+
+#required
+{
+	color: red;
+}
+
+#successbox 
+{
+	height: 11%;
+	width: 60%;
+	margin-top: 43%;
+	margin-left: 20%;
+	text-align: center;
+	border: 1px solid #30F608;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: #30F608;
+	position: fixed;
+}
+
+#successbox p
+{
+	vertical-align: middle;
+}
+
+#errorbox 
+{
+	height: 8%;
+	width: 60%;
+	margin-top: 43%;
+	margin-left: 20%;
+	text-align: center;
+	border: 1px solid red;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: red;
+	position: fixed;
+}
+
+#errorbox p
+{
+	vertical-align: middle;
+}
+
+#errorbox a
+{
+	color: #FF0000;
+}
+
+#errorbox a:hover
+{
+	color: orange;
+}
+
+#errorbox1 
+{
+	height: 20%;
+	width: 60%;
+	margin-top: 15%;
+	margin-left: 20%;
+	text-align: center;
+	border: 1px solid red;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: red;
+	position: fixed;
+}
+
+#errorbox1 p
+{
+	vertical-align: middle;
+}
+
+#errorbox1 a
+{
+	color: #FF0000;
+}
+
+#errorbox1 a:hover
+{
+	color: orange;
+}
+
+input[type="text"].expiration
+{
+	width: 50px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 8px;
+}
+
+input[type="text"].cryptogram
+{
+	width: 50px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 8px;
+}
+
+input[type="text"].creditcardnumber
+{
+	width: 200px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 8px;
+}
+
+input[type="submit"]
+{
+	width: 100px;
+	margin-left: 150px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 8px;
+}
+
+input[type="submit"]:hover
+{
+	width: 100px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 255, 0.8);
+	color: #01DFD7;
+	/* box-shadow: 0 0px 0px 0 #01DFD7, 0 6px 20px 0 #01DFD7; */
+}
+
+input[type="reset"]
+{
+	width: 100px;
+	margin-left: 10px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #01DFD7;
+	border-radius: 8px;
+}
+
+input[type="reset"]:hover
+{
+	width: 100px;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 255, 0.8);
+	color: #01DFD7;
+	/* box-shadow: 0 0px 0px 0 #01DFD7, 0 6px 20px 0 #01DFD7; */
+}
+
+#name
+{
+	width: 200px;
+}
+
+#firsttrybox 
+{
+	height: 13%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20%;
+	position: fixed;
+	text-align: center;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: #01DFD7;
+}
+
+#firsttrybox p
+{
+	font-size: 150%;
+	vertical-align: middle;
+}
+
+#firsttrybox1
+{
+	height: 9%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 43%;
+	position: fixed;
+	text-align: center;
+	border: 1px solid #01DFD7;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+	color: #01DFD7;
+}
+
+#firsttrybox1 p
+{
+	vertical-align: middle;
+}
+
+
+#shopping
+{
+	color: #01DFD7;
+	text-decoration: none;
+}
+
+#shopping:hover
+{
+	color: orange;
+}
+
+footer
+{
+	border-top: 1px solid #01DFD7;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	line-height: 100px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
